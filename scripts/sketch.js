@@ -24,15 +24,8 @@ const init = () => {
         antialias: true
     });
     renderer.setSize(WIDTH, HEIGHT);
+    pixelate(renderer, 16);
     document.querySelector(".pixel-art-canvas-container").appendChild(renderer.domElement);
-    renderer.domElement.style = `
-        width: 512px;
-        height: 512px;
-        image-rendering: -moz-crisp-edges;
-        image-rendering: -webkit-crisp-edges;
-        image-rendering: pixelated;
-        image-rendering: crisp-edges;
-    `;
 };
 
 const animate = () => {
