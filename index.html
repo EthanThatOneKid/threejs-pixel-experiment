@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<title>threejs-pixel-experiment</title>
+		<script src="https://threejs.org/build/three.min.js"></script>
+		<!-- <script src="../../libraries/three.orbitcontrols.js"></script> -->
+		<script src="scripts/sketch.js"></script>
+  </head>
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .pixel-art-canvas-container canvas {
+      width: 512px;
+      height: 512px;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
+  </style>
+	<body>
+		<table>
+			<tr>
+				<td>
+					<label>shape:</label>
+					<select class="shape-input">
+						<option>box</option>
+						<option>circle</option>
+						<option>cone</option>
+						<option>cylinder</option>
+						<option>dodecahedron</option>
+						<option>icosahedron</option>
+						<option>octahedron</option>
+						<option>ring</option>
+						<option>sphere</option>
+						<option>tetrahedron</option>
+						<option>torus</option>
+						<option>torus knot</option>
+					</select>
+					<div class="pixel-art-canvas-container"></div>
+				</td>
+				<td>
+					<div>
+						<h3>Geometries</h3>
+						<ul>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/BoxGeometry.html" target="viewer">BoxGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/CircleGeometry.html" target="viewer">CircleGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/ConeGeometry.html" target="viewer">ConeGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/CylinderGeometry.html" target="viewer">CylinderGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/DodecahedronGeometry.html" target="viewer">DodecahedronGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/IcosahedronGeometry.html" target="viewer">IcosahedronGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/OctahedronGeometry.html" target="viewer">OctahedronGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/RingGeometry.html" target="viewer">RingGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/SphereGeometry.html" target="viewer">SphereGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/TetrahedronGeometry.html" target="viewer">TetrahedronGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/TorusGeometry.html" target="viewer">TorusGeometry</a></li>
+							<li>&#9989;<a href="https://threejs.org/docs/#api/geometries/TorusKnotGeometry.html" target="viewer">TorusKnotGeometry</a></li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
