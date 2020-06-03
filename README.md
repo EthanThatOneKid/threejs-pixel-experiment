@@ -3,6 +3,7 @@
 
 ## Reference 📚
 * [CSS Image Rendering](https://developer.mozilla.org/en-US/docs/Games/Techniques/Crisp_pixel_art_look)
+* THREE.js Model Animation: [demo](https://threejs.org/examples/webgl_animation_skinning_blending.html), [code](https://github.com/mrdoob/three.js/blob/dev/examples/webgl_animation_skinning_blending.html)
 
 ## Character Models 🧑
 * https://opengameart.org/content/animated-characters-2
