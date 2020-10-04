@@ -4,6 +4,14 @@
 
 ## Check out the [demo](https://ethanthatonekid.github.io/threejs-pixel-experiment/)!
 
+## Technique 🎨
+
+To create this effect, I rendered [THREE.js](https://threejs.org/) geometries on a very small canvas (32 pixels by 32 pixels to be exact).
+Then, I scaled up the canvas using CSS.
+Using a special CSS property, I scaled the canvas in a way that maintains the sharp edges of the pixels.
+The CSS property in question is called [`image-rendering`](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering).
+When `image-rendering` is set to `pixelated`, the browser scales the rendered image without fuzzing the edges of each source pixel.
+
 ## Reference 📚
 
 * [CSS Image Rendering](https://developer.mozilla.org/en-US/docs/Games/Techniques/Crisp_pixel_art_look)
