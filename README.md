@@ -1,11 +1,16 @@
 # THREE.js Pixel Art Experiment 🕹
+
 > A THREE.js renderer that produces pixel art-esque visuals.
 
+## Check out the [demo](https://ethanthatonekid.github.io/threejs-pixel-experiment/)!
+
 ## Reference 📚
+
 * [CSS Image Rendering](https://developer.mozilla.org/en-US/docs/Games/Techniques/Crisp_pixel_art_look)
 * THREE.js Model Animation: [demo](https://threejs.org/examples/webgl_animation_skinning_blending.html), [code](https://github.com/mrdoob/three.js/blob/dev/examples/webgl_animation_skinning_blending.html)
 
-## Character Models 🧑
+### Character Models 🧑
+
 * https://opengameart.org/content/animated-characters-2
 * https://opengameart.org/content/low-poly-character-1
 * https://opengameart.org/content/scifi-girl
