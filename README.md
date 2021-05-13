@@ -2,7 +2,9 @@
 
 > A THREE.js renderer that produces pixel art-esque visuals.
 
-## Check out the [demo](https://ethanthatonekid.github.io/threejs-pixel-experiment/)!
+## Check out the [demo][demo_url]!
+
+![Demo][demo_gif]
 
 ## Technique 🎨
 
@@ -35,3 +37,5 @@ Developed with 🧠 by [EthanThatOneKid][creator_site]
 
 [bmac]: http://buymeacoff.ee/etok
 [creator_site]: http://ethandavidson.com/
+[demo_url]: https://ethanthatonekid.github.io/threejs-pixel-experiment/
+[demo_gif]: demo.gif
